@@ -41,9 +41,6 @@ function sbSwitch() {
 $( document )
   .ready( function() {
 
-    $( 'html' )
-      .removeClass( 'no-js' );
-
     $( '.sbSwitch a' )
       .on( 'click', function() {
         sbSwitch();
