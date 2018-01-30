@@ -1,30 +1,30 @@
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
 }
 
-
-header,
-.container section,
-.container aside {
+header, .container section, .container aside {
 	box-sizing: border-box;
 	padding: 1.6rem;
 }
+
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
 .container {
 	display: flex;
 	align-items: stretch;
 	align-content: flex-start;
 }
+
 section.main {
 	width: 70%;
 }
+
 aside.sidebar {
 	background: #eee9e9;
 	width: 30%;
@@ -35,37 +35,41 @@ aside.sidebar h2 {
 	color: #444;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
 	font-family: 'Slabo 27px', serif;
 }
+
 h1 {
 	font-size: 2rem;
 }
+
 h2 {
 	font-size: 2rem;
 	margin-bottom: 3rem;
 }
+
 h3 {
 	font-size: 1.5rem;
 	margin-bottom: .8rem;
 }
+
 p {
 	line-height: 1.5;
 	margin-bottom: 1rem;
 }
-
 
 header {
 	background: blue;
 	border-bottom: 6px solid #444;
 	color: #b5b5b5;
 }
-nav ul  {
+
+nav ul {
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
 }
+
 nav ul li a {
 	color: #d4d4d4;
 	display: inline-block;
@@ -75,54 +79,53 @@ nav ul li a {
 	text-transform: uppercase;
 	font-weight: bolder;
 	transition: border-bottom .2s
-	
 }
+
 nav ul li a:hover {
 	color: red;
 }
-
 
 .itemlist {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 .itemlist li {
 	flex: 0 1 30%;
 	list-style: none;
 	margin-bottom: 2.14rem;
 }
+
 .itemlist li a {
 	color: #444;
 	text-decoration: none;
 }
+
 .itemlist li img {
 	margin-bottom: 1rem;
 	width: 100%;
 	max-width: 100%;
 }
+
 .itemlist li p {
 	margin-bottom: 0;
 }
+
 .itemlist:hover li {
 	opacity: .7;
-}
-.itemlist:hover li:hover {
-	opacity: 1;
-
 }
 
 .itemlist img:hover {
 	border: 1px solid #cecccc;
 }
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.05); }
+.grow {
+	transition: all .2s ease-in-out;
+}
 
-.underline {
-	border-bottom: 1px solid #000000;
-	width: 60px;
-	padding-bottom: 10px;
+.grow:hover {
+	transform: scale(1.05);
 }
 
 @media (max-width: 579px) {
