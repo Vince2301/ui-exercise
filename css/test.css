@@ -1,11 +1,11 @@
-/* Base */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #444;
 }
 
-/* Layout */
+
 header,
 .container section,
 .container aside {
@@ -35,7 +35,7 @@ aside.sidebar h2 {
 	color: #444;
 }
 
-/* Typography */
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Slabo 27px', serif;
 }
@@ -55,7 +55,7 @@ p {
 	margin-bottom: 1rem;
 }
 
-/* Base styling */
+
 header {
 	background: blue;
 	border-bottom: 6px solid #444;
@@ -81,7 +81,7 @@ nav ul li a:hover {
 	color: red;
 }
 
-/* items list */
+
 .itemlist {
 	display: flex;
 	flex-wrap: wrap;
