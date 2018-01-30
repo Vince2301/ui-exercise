@@ -35,7 +35,7 @@ aside.sidebar h2 {
 	color: #444;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Slabo 27px', serif;
 }
 
@@ -116,6 +116,10 @@ nav ul li a:hover {
 	opacity: .7;
 }
 
+.itemlist:hover li:hover {
+	opacity: 1;
+}
+
 .itemlist img:hover {
 	border: 1px solid #cecccc;
 }
@@ -126,6 +130,12 @@ nav ul li a:hover {
 
 .grow:hover {
 	transform: scale(1.05);
+}
+
+.underline {
+	border-bottom: 1px solid #000000;
+	width: 60px;
+	padding-bottom: 10px;
 }
 
 @media (max-width: 579px) {
